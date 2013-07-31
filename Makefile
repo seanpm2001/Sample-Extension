@@ -19,7 +19,7 @@ SRCS=$(wildcard src/*.java)
 
 sample.jar: $(SRCS) manifest.txt Makefile NetLogoHeadless.jar
 	mkdir -p classes
-	$(JAVAC) -g -deprecation -Werror -Xlint:all -Xlint:-serial -Xlint:-path -encoding us-ascii -source 1.7 -target 1.7 -classpath NetLogoHeadless.jar:$(SCALA_JAR) -d classes $(SRCS)
+	$(JAVAC) -g -deprecation -Werror -Xlint:all -Xlint:-serial -Xlint:-path -encoding us-ascii -source 1.7 -target 1.7 -classpath "NetLogoHeadless.jar:$(SCALA_JAR)" -d classes $(SRCS)
 	jar cmf manifest.txt sample.jar -C classes .
 
 NetLogoHeadless.jar:

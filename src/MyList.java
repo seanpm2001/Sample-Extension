@@ -1,3 +1,4 @@
+import org.nlogo.core.Syntax;
 import org.nlogo.api.*;
 
 public class MyList extends DefaultReporter {

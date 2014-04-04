@@ -1,9 +1,10 @@
 import org.nlogo.core.Syntax;
+import org.nlogo.core.SyntaxJ;
 import org.nlogo.api.*;
 
 public class MyList extends DefaultReporter {
   public Syntax getSyntax() {
-    return Syntax.reporterSyntax
+    return SyntaxJ.reporterSyntax
         (new int[]{Syntax.WildcardType() | Syntax.RepeatableType()}, Syntax.ListType(), 2);
   }
 

@@ -2,7 +2,7 @@ import org.nlogo.core.Syntax;
 import org.nlogo.core.SyntaxJ;
 import org.nlogo.api.*;
 
-public class IntegerList extends DefaultReporter {
+public class IntegerList implements Reporter {
   // take one number as input, report a list
   public Syntax getSyntax() {
     return SyntaxJ.reporterSyntax(

@@ -23,7 +23,7 @@ sample.jar: $(SRCS) manifest.txt Makefile NetLogoHeadless.jar
 	jar cmf manifest.txt sample.jar -C classes .
 
 NetLogoHeadless.jar:
-	curl -f -s -S -L 'http://dl.bintray.com/netlogo/NetLogoHeadless/org/nlogo/netlogoheadless/5.2.0-6a3f061/netlogoheadless-5.2.0-6a3f061.jar' -o NetLogoHeadless.jar
+	curl -f -s -S -L 'http://dl.bintray.com/netlogo/NetLogoHeadlessMaven/org/nlogo/netlogoheadless/5.2.0-841c76b/netlogoheadless-5.2.0-841c76b.jar' -o NetLogoHeadless.jar
 
 sample.zip: sample.jar
 	rm -rf sample

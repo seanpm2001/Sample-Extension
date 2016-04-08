@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: sample
+Implementation-Version: 0.1-SNAPSHOT
+Class-Manager: SampleExtension
+Specification-Vendor: default
+Specification-Title: sample
+Implementation-Vendor-Id: default
+Extension-Name: sample
+Specification-Version: 0.1-SNAPSHOT
+NetLogo-Extension-API-Version: 5.0
+Implementation-Vendor: default

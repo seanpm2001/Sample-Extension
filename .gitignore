@@ -4,3 +4,5 @@
 /sample.zip
 /project/project
 target/
+/lib/scala-library-2.11.7.jar
+/out
